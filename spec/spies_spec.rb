@@ -21,6 +21,4 @@ RSpec.describe 'spies' do
     expect(animal).to have_received(:eat_food).once.with('Sushi')
   end
 
-
-
 end
